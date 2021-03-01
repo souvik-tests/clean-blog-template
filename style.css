@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:wght@400;600&display=swap');
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: inherit;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  padding: 20px 80px 20px 80px;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blogTitle {
+  cursor: pointer;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 30px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   box-shadow: 1px 1px 10px #C4C4C4;
+   border-radius: 10px;
+}
+
+.date {
+  color: #666;
+  display: inline;
+}
+
+.readBtn {
+  background: #00759A;
+  border-radius: 45px;
+  outline: none;
+  border: 0px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#about {
+  height: 371px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px;
+  padding: 0px;
+}
+
+#authorImg {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin: 0px auto;
+  z-index: 10;
+  background-size: 100%;
+  background-image: url('img/dp.jpg');
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+#authorArea {
+  height: 284px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin-top: -63px;
+  z-index: 5;
+  text-align: center;
+}
+
+#aName {
+  margin-top: 75px;
+}
+
+#aBio {
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+  color: #666;
+}
+
+.iSocial {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.iSocial:hover {
+  color: #00759A;
+}
+
+.donation:hover {
+  text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* style for article's body */
+.textBody {
+  padding: 0px 0px 0px 10px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px;
+}
+
+/* style of the images inside article */
+.textImg {
+  width: 100%;
+  padding: 0px 10px 0px 0px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1130px) {
+  body {
+    padding: 20px;
+  }
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+

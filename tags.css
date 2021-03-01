@@ -1,0 +1,70 @@
+/* style of the tags (mark) */
+.tag-blue {
+  background-color: #0652C5;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.tag-red {
+  background-color: #FF2F2F;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.tag-purple {
+  background-color: #AD15BA;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.tag-violet {
+  background-color: #EB00FF;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.tag-green {
+  background-color: #00A925;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.tag-yellow {
+  background-color: yellow;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+}
+
+.tag-sea {
+  background-color: #00FFC2;
+  padding: 2px 10px 2px 10px;
+  font-size: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+}
